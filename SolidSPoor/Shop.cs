@@ -18,7 +18,7 @@ namespace SolidSPoor
             _products.Add(product);
         }
 
-        public IProduct? RemoveProduct(int productNumber)
+        public IProduct RemoveProduct(int productNumber)
         {
             if (productNumber < 0 || productNumber > _products.Count - 1)
             {
